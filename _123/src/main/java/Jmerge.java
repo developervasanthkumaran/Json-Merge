@@ -17,7 +17,7 @@ public class Jmerge
 
     private static void jsonMergerUtility() throws Exception {
 
-        File dir = new File("C:\\Users\\robin\\IdeaProjects\\_123\\files");
+        File dir = new File("C:\\Users\\robin\\IdeaProjects\\_123\\files"); //give your own path here
 
         for (File file : Objects.requireNonNull(dir.listFiles())) {
 
@@ -85,7 +85,7 @@ public class Jmerge
     }
 /* Writes merged objects to Merge.json*/
     private static void writetoFile(JSONObject jb){
-        String filename="files/Merge.json";
+        String filename="files/Merge.json";         //give your own path here
 
         try  {
             FileWriter file = new FileWriter(filename);
