@@ -6,5 +6,5 @@
 
  # Also mention your result json file path under method
  writetoFile()
- # To run Jsom-Merge
+ # To run Json-Merge
  src > main > java > Jmerge.java  
